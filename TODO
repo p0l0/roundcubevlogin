@@ -1,0 +1,11 @@
+Extracted from Squirrelmail vlogin:
+
+DONE - make sure all usernames given on login page do not have any domain portion in them
+DONE - make sure all usernames given on login page have the Roundcube default domain appended to them
+DONE - make sure all usernames given on login page have the domain that corresponds to the domain in the URL of the login page appended to them
+DONE - allow users to log in with just a "user" when in fact their IMAP login might be something like "username@domain.com"
+ - show a different image on the login page for each of your domains
+ - change most any Roundcube configuration setting on a per-domain, per-service level, or even per-user basis
+ - change IMAP servers (or any other settings) on a per-domain, per- service level, or even on a per-user basis
+ - enable or disable certain plugins on a per-domain, per-service level or per-user basis
+ - disable certain option page items on a per-domain, per-service level or per-user basis

@@ -1,0 +1,6 @@
+Install Instructions
+-----------------------
+
+ - Extract vlogin to roundcube plugins folder
+ - Edit config.inc.php.dist and save as config.inc.php
+ - Enable plugin adding 'vlogin' to the $rcmail_config['plugins'] array in main.inc.php

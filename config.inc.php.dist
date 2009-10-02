@@ -1,0 +1,21 @@
+<?php
+/**
+ * Vlogin Roundcube plugin
+ *
+ * @version 1.0
+ * @url http://sourceforge.net/projects/roundcubevlogin/
+ * @author Marco Neumann <webcoder_at_binware_dot_org>
+ * @copyright Copyright (c) 2009, Marco Neumann
+ * Licensed under the BSD License. For full terms see the file COPYING.
+ * 
+ * $Id$
+ */
+
+//Automatic add @domain from webserver domain
+$rcmail_config['vlogin_adddomain'] = true;
+
+//Number of dots for domain
+$rcmail_config['vlogin_adddomain_dots'] = 2;
+
+//Let login with different domains
+$rcmail_config['vlogin_adddomain_dif'] = false;
