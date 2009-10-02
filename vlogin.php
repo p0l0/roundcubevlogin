@@ -41,6 +41,14 @@ class vlogin extends rcube_plugin
         $rcmail = rcmail::get_instance();
         
         /**
+         * Check if config file is available
+         */
+        if (!file_exists(dirname(__FILE__) . '/config.inc.php')) {
+            write_log('errors', 'Plugin::Vlogin - No config file found');
+            return $data;
+        }
+        
+        /**
          * Merge plugin config with RC Config
          */
         $this->load_config();
