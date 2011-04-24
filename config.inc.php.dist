@@ -5,8 +5,8 @@
  * @version 1.0
  * @url http://sourceforge.net/projects/roundcubevlogin/
  * @author Marco Neumann <webcoder_at_binware_dot_org>
- * @copyright Copyright (c) 2009, Marco Neumann
- * Licensed under the BSD License. For full terms see the file COPYING.
+ * @copyright Copyright (c) 2009-2011, Marco Neumann
+ * Licensed under the GNU GPL. For full terms see the file COPYING.
  * 
  * $Id$
  */
